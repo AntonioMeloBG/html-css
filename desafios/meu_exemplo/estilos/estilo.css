@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #68F5B2;
+    --cor02: #5CDB9E;
+    --cor03: #08c764;
+    --cor04: #317554;
+    --cor05: #163627;
+} 
+
+body{
+    margin: 0px;
+}
+
+header{
+    color: white;
+    background: linear-gradient(to bottom, var(--cor03), var(--cor05));
+    padding: 0px;
+}
+
+header > h1{
+    text-align: center;
+    margin: auto;
+    padding: 30px 30px 20px 30px;
+}
+
+header > p{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+header > nav{
+    padding: 10px;
+}
+
+nav > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: 28px;
+}
+
+nav > a:hover{
+    color: var(--cor05);
+    background-color: var(--cor02);
+    border-radius: 15%;
+}
